@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>business LLC</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            margin: 0;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        a{
+           text-decoration: none;   
+           color: black;
+        }
+
+        .clear{
+            clear: both;
+        }
+        #wrapper{
+            width: 800px;
+            margin: auto;
+        }
+        #headerWrap{
+            padding: 0 0 20px 0;
+            /* border: 1px red solid; */
+        }
+        #headerWrap>img{    /*로고이미지*/
+            width: 250px;
+            float: left;
+        }
+        #top-icon{      
+            margin: 10px;    
+            float: right;
+        }
+        #top-icon>img{
+            width: 40px;
+        }
+        #headerWrap>ul{
+            background-color: gray;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        #headerWrap>ul>li{
+            float: left;
+            width: 128px;
+            padding: 5px 0;
+            text-align: center;     /*정렬*/
+        }
+        #headerWrap>ul>li>a{
+            color: white;
+            display: block;     
+        }
+        #headerWrap>ul>li>a:hover{
+            color: black;
+        }
+
+        .content{
+            background-color: cornflowerblue;
+            height: 200px;
+            border-radius: 5px;
+            padding: 100px 0 0 0;
+            text-align: center;
+        }
+        .content p{
+            color: white;
+            text-align: center;
+            font: bold;
+        }
+        .content button{
+            color: white;
+            background-color: blue;
+            width: 100px;
+            height: 30px;
+
+        }
+        .content button:hover{
+            color: black;
+            background-color: aliceblue;
+        }
+
+        #extraContainer{
+            padding: 30px 0 0 0;
+        }
+        .temp1{
+            background-color: white;
+            width: 390px;
+            height: 130px;
+            border-radius: 5px;
+            float: left;
+        }
+        #box1{  
+            margin-right: 20px;
+        }
+        .temp1>img{
+            float: left;
+            margin: 10px 10px 10px 10px;
+        }
+        .temp1>h3{
+            margin: 5px 10px;
+        }
+        .temp1>p{
+            font-size: x-small;
+            margin-right: 10px ;
+        }
+        .temp1>h5{
+            margin: 1px;
+        }
+
+        #footer{
+            background-color: gray;
+            margin-top: 30px;
+        }
+        #footer>ul>li>a{
+            color: white;
+            text-decoration: underline;
+        }
+        #footer>ul>li{
+            float: left;
+            list-style: none;
+            text-align: center;
+            width: 128px;
+            font-size: x-small;
+            padding: 20px 0;
+        }
+        #footer>ul>li>a:hover{
+            color: black;
+        }
+        #footer>p{
+            color: white;
+            font-size: x-small;
+        }
+        .copy{
+            float: left;
+            margin: 0 0 20px 40px;
+        }
+        .Designed{
+            float: right;
+            margin: 0 45px 20px 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="headerWrap">
+            <img src="img/logo.gif" alt="logo">
+            <div id="top-icon">
+                <img src="img/top-icon1.gif" alt="top-icon1">
+                <img src="img/top-icon2.gif" alt="top-icon2">
+                <img src="img/top-icon3.gif" alt="top-icon3">
+            </div>
+            <div class="clear"></div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SOLUTIONS</a></li>
+                <li><a href="#">PARTNERS</a></li>
+                <li><a href="#">CONSULTING</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <p><b>Even the biggest success Starts with a first step</b></p>
+            <button>Learn More</button>
+        </div>
+        <div id="extraContainer">
+                <div class="temp1" id="box1">
+                    <h3>About Us</h3>
+                    <img src="img/image_87x66.gif" alt="box">
+                    <p>A perfect place to tell a couple of words about your company - just a little bit of introduction, leave the rest for a proper page. </p>
+                </div>
+                <div class="temp1">
+                    <h3>Testimonial</h3>
+                    <img src="img/image_87x66.gif" alt="box">
+                    <h5>Testimonial Name</h5>
+                    <p>We know you love it - showing off how your customers love you and your company. Therefore there should be a place for it - which is here.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div id="footer">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">SOLUTIONS</a></li>
+                <li><a href="#">PARTNERS</a></li>
+                <li><a href="#">CONSULTING</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <div class="clear"></div>
+            </ul>
+            
+            <p class = "copy">Copyright(C)2009</p>
+            <p class = "Designed">Designed by TemplateMonster - Website templates provider</p>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>
